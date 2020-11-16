@@ -1,0 +1,133 @@
+Watching for file changes with StatReloader
+Bad Request: /api/auth/register
+[15/Nov/2020 23:05:39] "POST /api/auth/register HTTP/1.1" 400 61
+Unauthorized: /api/auth/login
+[15/Nov/2020 23:08:42] "POST /api/auth/login HTTP/1.1" 401 32
+Unauthorized: /api/auth/login
+[15/Nov/2020 23:09:02] "POST /api/auth/login HTTP/1.1" 401 32
+Unauthorized: /api/auth/login
+[15/Nov/2020 23:09:20] "POST /api/auth/login HTTP/1.1" 401 32
+Unauthorized: /api/auth/login
+[15/Nov/2020 23:10:28] "POST /api/auth/login HTTP/1.1" 401 32
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 15, 2020 - 23:05:34
+Django version 3.1.3, using settings 'b2bapi.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+Unauthorized: /api/auth/login
+[15/Nov/2020 23:53:49] "POST /api/auth/login HTTP/1.1" 401 32
+[15/Nov/2020 23:53:54] "POST /api/auth/login HTTP/1.1" 200 242
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.53', 35430)
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[16/Nov/2020 00:14:54] "GET / HTTP/1.1" 404 2033
+----------------------------------------
+Exception happened during processing of request from ('74.120.14.53', 56996)
+Traceback (most recent call last):
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socketserver.py", line 647, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socketserver.py", line 357, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socketserver.py", line 717, in __init__
+    self.handle()
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/home/ubuntu/.pyenv/versions/3.7.0/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /
+[16/Nov/2020 00:14:54] "GET / HTTP/1.1" 404 2033
+Unauthorized: /api/auth/login
+[16/Nov/2020 00:21:59] "POST /api/auth/login HTTP/1.1" 401 32
+[16/Nov/2020 00:22:59] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:23:40] "POST /api/auth/login HTTP/1.1" 200 242
+Unauthorized: /api/auth/login
+[16/Nov/2020 00:23:50] "POST /api/auth/login HTTP/1.1" 401 32
+[16/Nov/2020 00:24:16] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:24:16] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:24:21] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:24:21] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Method Not Allowed: /api/auth/login
+[16/Nov/2020 00:25:42] "GET /api/auth/login HTTP/1.1" 405 40
+[16/Nov/2020 00:25:45] "POST /api/auth/login HTTP/1.1" 200 242
+Unauthorized: /api/auth/login
+[16/Nov/2020 00:25:48] "POST /api/auth/login HTTP/1.1" 401 32
+[16/Nov/2020 00:25:55] "POST /api/auth/login HTTP/1.1" 200 242
+Bad Request: /api/auth/register
+[16/Nov/2020 00:26:35] "POST /api/auth/register HTTP/1.1" 400 160
+Method Not Allowed: /api/auth/register
+[16/Nov/2020 00:26:42] "GET /api/auth/register HTTP/1.1" 405 40
+[16/Nov/2020 00:26:45] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:26:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:27:01] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:27:01] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Bad Request: /api/auth/register
+[16/Nov/2020 00:29:30] "POST /api/auth/register HTTP/1.1" 400 61
+[16/Nov/2020 00:29:53] "POST /api/auth/register HTTP/1.1" 201 91
+[16/Nov/2020 00:30:48] "POST /api/auth/login HTTP/1.1" 200 226
+Watching for file changes with StatReloader
+[16/Nov/2020 00:36:03] code 400, message Bad request syntax ('\x16\x03\x01\x00å\x01\x00\x00á\x03\x03\x13û\x9a´µr´·R\x0f')
+[16/Nov/2020 00:36:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:37:15] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:37:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:37:22] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:37:22] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:37:33] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:37:33] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Unauthorized: /api/auth/login
+[16/Nov/2020 00:37:40] "POST /api/auth/login HTTP/1.1" 401 32
+[16/Nov/2020 00:37:47] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:37:52] code 400, message Bad request version ('\x9fÄ\x06É½5FÚ@\x03(¶ª')
+[16/Nov/2020 00:37:52] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:38:03] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:38:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+Performing system checks...
+
+System check identified no issues (0 silenced).
+November 16, 2020 - 00:35:47
+Django version 3.1.3, using settings 'b2bapi.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[16/Nov/2020 00:43:00] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:43:00] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:43:06] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:44:45] "POST /api/auth/login HTTP/1.1" 200 245
+[16/Nov/2020 00:45:37] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:45:47] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:46:01] "POST /api/auth/login HTTP/1.1" 200 242
+[16/Nov/2020 00:46:07] code 400, message Bad request version ('À\x13À')
+[16/Nov/2020 00:46:07] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[16/Nov/2020 00:46:10] "POST /api/auth/login HTTP/1.1" 200 242
